@@ -148,3 +148,21 @@ td {
   background: #198acc;
   cursor: pointer;
 }
+
+#quick-menu {
+  position: fixed;
+  left: 20px;
+  top: 60px;
+  width: 200px;
+  height: auto;
+  background: white;
+  padding: 20px 10px;
+  z-index: 2;
+}
+
+#quick-menu h3 {
+  margin-top: 0;
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+}
