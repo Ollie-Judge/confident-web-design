@@ -105,3 +105,46 @@ p {
   font-size: 18px;
   line-height: 26px;
 }
+
+.section {
+  width: 600px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.example {
+  padding: 10px;
+  background: #fcfcfc;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+.code-show-button {
+  display: block;
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  background: #1998e2;
+  color: white;
+  font-size: 14px;
+}
+
+.code-show-button:hover {
+  background: #198acc;
+  cursor: pointer;
+}
