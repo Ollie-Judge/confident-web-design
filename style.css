@@ -174,3 +174,35 @@ td {
   border-radius: 10px;
   margin-top: 20px;
 }
+
+form,
+input[type="text"],
+input[type="submit"] {
+  width: 300px;
+  margin: 5px auto;
+  padding: 10px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.span1,
+.div1 {
+  background: green;
+}
+
+.span2,
+.div2 {
+  background: red;
+}
+
+.span3,
+.div3 {
+  background: blue;
+}
+
+.exampleImage {
+  height: 250px;
+  width: 400px;
+}

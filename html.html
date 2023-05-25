@@ -14,13 +14,19 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="html.html" class="active">HTML</a></li>
           <li><a href="css.html">CSS</a></li>
-          <li><a href="javascript.html">JavaScript</a></li>
+          <li><a href="js.html">JavaScript</a></li>
         </ul>
       </div>
       <div id="quick-menu">
         <h3>Quick Links</h3>
         <ul>
           <li><a href="#tables">Tables</a></li>
+          <li><a href="#forms">Forms</a></li>
+          <li><a href="#images">Images</a></li>
+          <li><a href="#links">Links</a></li>
+          <li><a href="#lists">Lists</a></li>
+          <li><a href="#div">Divs</a></li>
+          <li><a href="#spans">Spans</a></li>
         </ul>
       </div>
     </div>
@@ -76,6 +82,125 @@
       />
     </div>
 
-    <script src="script"></script>
+    <div id="forms" class="section">
+      <h1>Forms</h1>
+      <p>
+        This is a form, you enter information and the form will send it
+        somewhere once the submit button is pushed.
+      </p>
+      <div class="example">
+        <form onsubmit="return alert('form has been submitted')">
+          <input type="text" value="name" />
+          <input type="email" value="email" />
+          <input type="submit" />
+        </form>
+      </div>
+      <input
+        class="code-show-button"
+        type="button"
+        onclick="showCode('forms')"
+        value="Show Code"
+      />
+    </div>
+
+    <div id="images" class="section">
+      <h1>Images</h1>
+      <p>This is an image, it contains an image.</p>
+      <div class="example">
+        <img src="img/image.jpg" class="exampleImage" alt="Image of a Lake" />
+      </div>
+      <input
+        class="code-show-button"
+        type="button"
+        onclick="showCode('images')"
+        value="Show Code"
+      />
+    </div>
+
+    <div id="links" class="section">
+      <h1>Links</h1>
+      <p>This is a link, it is used for linking to other things.</p>
+      <div class="example">
+        <a href="https://maze.toys/mazes/mini/daily/" target="_blank"
+          >Click this link</a
+        >
+      </div>
+      <input
+        class="code-show-button"
+        type="button"
+        onclick="showCode('links')"
+        value="Show Code"
+      />
+    </div>
+
+    <div id="lists" class="section">
+      <h1>Unordered and Ordered lists</h1>
+      <p>
+        An unordered list is a list that has no order like a,b,c, 1,2,3. An
+        ordered list is a list that is ordered in the form of a,b,c, 1,2,3
+      </p>
+      <div class="example">
+        <ul>
+          <li>A</li>
+          <li>B</li>
+          <li>C</li>
+        </ul>
+
+        <ol>
+          <li>A</li>
+          <li>B</li>
+          <li>C</li>
+        </ol>
+      </div>
+      <input
+        class="code-show-button"
+        type="button"
+        onclick="showCode('lists')"
+        value="Show Code"
+      />
+    </div>
+
+    <div id="div" class="section">
+      <h1>div</h1>
+      <p>
+        This is a div, it is a container, and is a block element, so, this will
+        take up a whole row unless otherwise specified.
+      </p>
+      <div class="example">
+        <div class="div1">A</div>
+
+        <div class="div2">B</div>
+
+        <div class="div3">C</div>
+      </div>
+      <input
+        class="code-show-button"
+        type="button"
+        onclick="showCode('div')"
+        value="Show Code"
+      />
+    </div>
+
+    <div id="spans" class="section">
+      <h1>Spans</h1>
+      <p>
+        This is a Span, its like a div, but is an inline element as opposed to
+        being a block element, which means that it will not take up a whole row
+        of a page, so you can put things IN LINE .
+      </p>
+      <div class="example">
+        <span class="span1">A</span>
+        <span class="span2">B</span>
+        <span class="span3">C</span>
+      </div>
+      <input
+        class="code-show-button"
+        type="button"
+        onclick="showCode('spans')"
+        value="Show Code"
+      />
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
